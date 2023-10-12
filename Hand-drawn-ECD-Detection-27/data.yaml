@@ -1,0 +1,27 @@
+names:
+- capacitor
+- crossover
+- diode
+- ground
+- inductor
+- junction
+- mosfet
+- node
+- resistor
+- source
+- switch
+- terminal
+- text
+- thyristor
+- transformer
+- transistor
+nc: 16
+roboflow:
+  license: Private
+  project: hand-drawn-ecd-detection
+  url: https://app.roboflow.com/project/hand-drawn-ecd-detection/27
+  version: 27
+  workspace: project
+test: ../test/images
+train: Hand-drawn-ECD-Detection-27/train/images
+val: Hand-drawn-ECD-Detection-27/valid/images
